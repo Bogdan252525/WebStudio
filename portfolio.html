@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -12,13 +13,13 @@
 </head>
 <body>
 	<!-- Шапка сайта -->
-	<header>
+	<header class="heading">
 		<nav>
-			<a href="/" class="logo">Web<span class="half-headline">Studio</span></a>
+			<a href="./index.html" class="logo">Web<span class="half-headline">Studio</span></a>
 			<ul class="site-nav list">
 				<li><a href="./index.html" class="link">Студия</a></li>
 				<li><a href="./portfolio.html" class="link current">Портфолио</a></li>
-				<li><a href="" class="link">Контакты</a></li>
+				<li><a href="#" class="link">Контакты</a></li>
 			</ul>
 		</nav>
 
@@ -36,85 +37,83 @@
 		<!-- examples -->
 		<section>
 			<h1>Примеры работ</h1>
-			<nav>
-				<ul class="btn-list list">
-					<li>
-						<button type="button" class="filter">Все</button>
-					</li>
-					<li>
-						<button type="button" class="filter">Веб-сайты</button>
-					</li>
-					<li>
-						<button type="button" class="filter">Приложения</button>
-					</li>
-					<li>
-						<button type="button" class="filter">Дизайн</button>
-					</li>
-					<li>
-						<button type="button" class="filter">Маркетинг</button>
-					</li>
-				</ul>
-			</nav>
+			<ul class="btn-list list">
+				<li>
+					<button type="button" class="filter">Все</button>
+				</li>
+				<li>
+					<button type="button" class="filter">Веб-сайты</button>
+				</li>
+				<li>
+					<button type="button" class="filter">Приложения</button>
+				</li>
+				<li>
+					<button type="button" class="filter">Дизайн</button>
+				</li>
+				<li>
+					<button type="button" class="filter">Маркетинг</button>
+				</li>
+			</ul>
 			<ul class="list-examples list" >
 				<li>
-					<a href="" class="link">
-						<img src="./images/colection/example1.jpg" alt="Сайт на экране компьютера">
+					<a href="#" class="link">
+						<img src="./images/colection/example1.jpg" alt="Сайт на экране компьютера" width="370">
 						<h2 class="title">Технокряк</h2>
 						<p class="text">Веб-сайт</p>
 					</a>
 				</li>
 				<li>
-					<a href="" class="link">
-						<img src="./images/colection/example2.jpg" alt="Играют баскетбол">
+					<a href="#" class="link">
+						<img src="./images/colection/example2.jpg" alt="Играют баскетбол" width="370">
 						<h2 class="title">Постер New Orlean vs Golden Star</h2>
 						<p class="text">Дизайн</p>
 					</a>
 				</li>
 				<li>
-					<a href="" class="link">
-						<img src="./images/colection/example3.jpg" alt="Логотип ресторана">
+					<a href="#" class="link">
+						<img src="./images/colection/example3.jpg" alt="Логотип ресторана" width="370">
 						<h2 class="title">Ресторан Seafood</h2>
 						<p class="text">Приложение</p>
 					</a>
 				</li>
 				<li>
-					<a href="" class="link">
-						<img src="./images/colection/example4.jpg" alt="Наушники">
+					<a href="#" class="link">
+						<img src="./images/colection/example4.jpg" alt="Наушники" width="370">
 						<h2 class="title">Проект Prime</h2>
 						<p class="text">Маркетинг</p>
 					</a>
 				</li>
 				<li>
-					<a href="" class="link">
-						<img src="./images/colection/example5.jpg" alt="Две коробки">
+					<a href="#" class="link">
+						<img src="./images/colection/example5.jpg" alt="Две коробки" width="370">
 						<h2 class="title">Проект Boxes</h2>
 						<p class="text">Приложение</p>
 					</a>
 				</li>
 				<li>
-					<a href="" class="link">
-						<img src="./images/colection/example6.jpg" alt="Сайт на мониторе">
+					<a href="#" class="link">
+						<img src="./images/colection/example6.jpg" alt="Сайт на мониторе" width="370">
 						<h2 class="title">Inspiration has no Borders</h2>
 						<p class="text">Веб-сайт</p>
 					</a>
 				</li>
 				<li>
-					<a href="" class="link">
-						<img src="./images/colection/example7.jpg" alt="Открытая книга">
+					<a href="#" class="link">
+						<img src="./images/colection/example7.jpg" alt="Открытая книга" width="370">
 						<h2 class="title">Издание Limited Edition</h2>
 						<p class="text">Дизайн</p>
 					</a>
 				</li>
 				<li>
-					<a href="" class="link">
-						<img src="./images/colection/example8.jpg" alt="Этикетка">
+					<a href="#" class="link">
+						<img src="./images/colection/example8.jpg" alt="Этикетка" width="370">
 						<h2 class="title">Проект LAB</h2>
 						<p class="text">Маркетинг</p>
 					</a>
 				</li>
 				<li>
-					<a href="" class="link">
-						<img src="./images/colection/example9.jpg" alt="Человек работает за компьютером">
+					<a href="#" class="link">
+						<img src="./images/colection/example9.jpg" alt="Человек работает за компьютером" width="370">
 						<h2 class="title">Growing Business</h2>
 						<p class="text">Приложение</p>
 					</a>
@@ -125,7 +124,7 @@
 
 	<!-- Футер -->
 	<footer class="basement">
-		<a href="/" class="logo">Web<span class="footline">Studio</span></a>
+		<a href="./index.html" class="logo">Web<span class="footline">Studio</span></a>
 		<address>
 			<ul class="address-list list">
 				<li>
